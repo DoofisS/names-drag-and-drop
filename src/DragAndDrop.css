@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.draggable-item {
+  padding: 8px;
+  background-color: #2196f3;
+  color: #fff;
+  border: 1px solid #0f6fc9;
+  margin: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.draggable-item.dragging {
+  opacity: 0.5;
+}
+
+.draggable-place {
+  border: 2px dashed #ccc;
+  padding: 15px 10px 40px 10px;
+  width: 50%;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+  font-weight: bold;
+}
+.chooseButtonContainer {
+  text-align: center;
+  padding: 20px;
+}
+
+.chooseButtonContainer button {
+  padding: 10px;
+  margin: 20px 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.chooseButtonContainer p {
+  font-size: 30px;
+}
